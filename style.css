@@ -2,10 +2,10 @@
 
 body{
     margin:0;
+    font-family: "Roboto", sans-serif;
 }
 .header{
     background-color:#1F2937;
-    font-family: "Roboto", sans-serif;
     color:white;
     font-weight:bold;
 }
@@ -33,8 +33,8 @@ body{
 }
 
 .hero-banner{
-    font-family: "Roboto", sans-serif;
     background-color:#1F2937;
+   
 }
 
 button{
@@ -42,8 +42,21 @@ button{
 }
 
 .card-image{
-    width:100px;
+    width:150px;
     height:auto;
-    border:#3882F6;
+    border-color:#3882F6;
+    border-width: 5px;
+    border-style:solid;
     border-radius:2%;
+}
+
+.cards-title{
+    font-size:36px;
+    font-weight:800;
+    color:#1F2937
+}
+
+.card p {
+    font-size:18px;
+    color:#1F2937;
 }
