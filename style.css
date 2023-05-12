@@ -179,3 +179,11 @@ button, .pop-up{
     margin:0px;
     margin-top:16px;
 }
+
+button:hover{
+    color:black;
+}
+
+a:hover {
+    color:#3882F6;
+}
