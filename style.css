@@ -7,6 +7,7 @@ body{
     justify-content:space-between;
     flex-direction:column;
 }
+
 .header, .footer, .hero-banner{
     background-color:#1F2937;
     color:#F9FAF8;
@@ -112,7 +113,7 @@ button, .pop-up{
 }
 
 .quote-banner i{
-    font-weight:light;
+    font-weight:300;
     font-size:36px;
     color:#1F2937
 }
