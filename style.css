@@ -119,6 +119,13 @@ button, .pop-up{
 
 .quote-banner{
     background-color:#E5E7EB;
+    padding: 64px 256px;
+    display:flex;
+    flex-direction:column;
+}
+
+.quote-banner p {
+    align-self:flex-end;
 }
 
 .section{
