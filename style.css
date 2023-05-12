@@ -34,7 +34,7 @@ ul{
     list-style:none;
     margin:0;
     padding: 0;
-    gap:6px;
+    gap:64px;
 }
 
 ul a {
@@ -85,13 +85,15 @@ button, .pop-up{
     border-color:#3882F6;
     border-width: 5px;
     border-style:solid;
-    border-radius:2%;
+    border-radius:6%;
 }
 
 .cards.title{
     font-size:36px;
     font-weight:800;
-    color:#1F2937
+    color:#1F2937;
+    padding:32px;
+    text-align:center;
 }
 
 .card p {
@@ -120,4 +122,39 @@ button, .pop-up{
     max-width:500px;
     flex:inital; 
     padding:32px;  
+}
+
+.cards-banner{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:16px;
+    margin:32px;
+
+}
+
+.card {
+    text-align:center;
+    max-width:200px;
+
+}
+
+.footer{
+    text-align:center;
+    padding:32px;
+}
+
+.bottom-banner{
+    margin:16px 0px;
+    
+}
+
+.pop-up{
+    padding:16px;
+    margin:0px;
+}
+
+.pop-up p{
+    margin:0px;
+    margin-top:16px;
 }
