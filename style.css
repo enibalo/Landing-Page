@@ -4,13 +4,12 @@ body{
     margin:0;
     font-family: "Roboto", sans-serif;
 }
-.header{
+.header, .footer{
     background-color:#1F2937;
-    color:white;
-    font-weight:bold;
+    color:#F9FAF8;
 }
 
-.title{
+.header.title{
     color:#F9FAF8;
     font-size:24px;
 }
@@ -37,8 +36,9 @@ body{
    
 }
 
-button{
-    color:#3882F6;
+button, .pop-up{
+    background-color:#3882F6;
+    color:#E5E7EB
 }
 
 .card-image{
@@ -50,7 +50,7 @@ button{
     border-radius:2%;
 }
 
-.cards-title{
+.cards.title{
     font-size:36px;
     font-weight:800;
     color:#1F2937
@@ -60,3 +60,20 @@ button{
     font-size:18px;
     color:#1F2937;
 }
+
+.pop-up button{
+    border-color:#E5E7EB;
+    border-width:2px;
+    border-style:solid;
+}
+
+.quote-banner i{
+    font-weight:light;
+    font-size:36px;
+    color:#1F2937
+}
+
+.quote-banner{
+    background-color:#E5E7EB;
+}
+
